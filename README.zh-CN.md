@@ -6,7 +6,7 @@
 
 > 从真实开发经验中提炼的 Claude Code skill 合集。
 
-每个 skill 是一个独立的 `.md` 文件，放入 `~/.claude/skills/` 后即可在 Claude Code 中直接调用。
+每个 skill 是一个独立的 `.md` 文件，放入 `~/.claude/commands/` 后即可在 Claude Code 中直接调用。
 
 ---
 
@@ -38,7 +38,7 @@
 mkdir -p ~/.claude/skills
 
 # multi-phase-feature-dev
-curl -o ~/.claude/skills/multi-phase-feature-dev.md \
+curl -o ~/.claude/commands/multi-phase-feature-dev.md \
   https://raw.githubusercontent.com/Likeusewin10/rye-skills/main/skills/multi-phase-feature-dev/multi-phase-feature-dev.md
 ```
 
